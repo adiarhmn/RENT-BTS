@@ -1,3 +1,15 @@
+# HOW TO RUN
+- Setelah Download ZIP, Lalu Ekstrak
+- Nyalakan XAMPP, Buat Database "rent_bts"
+- Setalah Itu Buka Projectnya Di Visual Studio Code
+- Lalu masuk Ke Terminal ketika perintah "composer install"
+- Jika sudah lalu perintah "npm install"
+- Lakukan Perintah "php spark migrate"
+- Lalu Run "npm run dev" untuk memunculkan tampilannya.
+- Lalu perintah "php spark serve"
+- Buka DI browser linknya.
+
+  
 # CodeIgniter 4 Application Starter
 
 ## What is CodeIgniter?
