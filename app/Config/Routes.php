@@ -49,6 +49,7 @@ $routes->group('', ['filter' => 'Auth'], static function ($routes) {
             $routes->get('', 'Paket::index');
             $routes->get('create', 'Paket::create');
             $routes->post('store', 'Paket::store');
+            $routes->get('(:num)', 'Paket::detail/$1');
         });
 
         $routes->group('/fotobusana', static function($routes){

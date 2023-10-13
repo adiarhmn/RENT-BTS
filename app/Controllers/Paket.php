@@ -56,4 +56,12 @@ class Paket extends BaseController
             return redirect()->to('paket')->with('message', 'Data Berhasil DiTambah');
         }
     }
+
+    public function detail($id){
+        $data = [
+            'page'  => 'paket',
+        ];
+
+        return view('_paket/detailPaket', $data);
+    }
 }
